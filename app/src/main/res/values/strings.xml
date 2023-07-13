@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BusinessCardApp</string>
+    <string name="android_logo">Android Logo</string>
+    <string name="android">android</string>
+    <string name="fake_phone_number">+11 (123) 444 555 666</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="mail">Mail</string>
+    <string name="ahmedhosnydev_gmail_com">ahmedhosnydev@gmail.com</string>
+    <string name="ahmedhosnydev">\@AhmedHosnyDev</string>
+    <string name="social">Social</string>
+</resources>
