@@ -67,7 +67,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    AndroidLogo()
+                    BusinessCardApp()
                 }
             }
         }
@@ -80,7 +80,7 @@ class MainActivity : ComponentActivity() {
     showSystemUi = true
 )
 @Composable
-fun GreetingPreview() {
+fun BusinessCardAppPreview() {
     BusinessCardAppTheme {
         BusinessCardApp()
     }
@@ -119,7 +119,7 @@ fun AndroidLogo() {
         Icon(
             painter = painterResource(id = R.drawable.android),
             contentDescription = stringResource(R.string.android_logo),
-            tint = Color(0xFF30DC80)
+            tint = lightGreen
         )
         Text(
             text = stringResource(R.string.android),
